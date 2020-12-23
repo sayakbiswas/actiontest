@@ -91,7 +91,6 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
-          token: aec42d2727d94bfa4ca605cb674c46ed3cb4bd6d
           path: actiontest
       - name: ls
         run: dir
